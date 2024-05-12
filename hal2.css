@@ -1,0 +1,86 @@
+*,html{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+nav{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: linear-gradient(#6d747e,#292525);
+}
+nav h1{
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+nav div img{
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    border: 4px solid #fff;
+    margin-right: 15px;
+}
+nav div h1{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(142, 216, 192, 0.384);
+}
+nav ul li a:hover{
+    color: aquamarine;
+    border-bottom: 1px solid black;
+}
+body{
+    background: linear-gradient(#6d747e,#292525);
+    align-items: justify;
+    background-image: url(Bgberas.jpeg.jpg);
+    min-height: 100vh;
+    size: 100%;
+}
+h2{
+    text-align: center;
+    color: #f9f9f9;
+    font-size: 50px;
+}
+.sembako-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .sembako-table th,.sembako-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .sembako-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .sembako-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .sembako-table tr:hover {
+    background-color: #ccc;
+  }
+  .clm a h2{
+    font-size: 20px;
+  }
